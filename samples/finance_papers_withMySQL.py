@@ -58,11 +58,12 @@ try:
             ('R2', 'Q2', '정지호', 'A'),
             ('R3', 'Q3', '정지호', 'A'),
             ('R4', 'Q4', '정지호', 'C'),
-            ('R5', 'Q1', '정진겸', 'D'),
-            ('R6', 'Q2', '정진겸', 'A'),
-            ('R7', 'Q3', '정진겸', 'A'),
-            ('R8', 'Q4', '정진겸', 'D'),
-            ('R9', 'Q5', '정진겸', 'D')
+            ('R5', 'Q5', '정지호', 'C'),
+            ('R6', 'Q1', '정진겸', 'D'),
+            ('R7', 'Q2', '정진겸', 'A'),
+            ('R8', 'Q3', '정진겸', 'A'),
+            ('R9', 'Q4', '정진겸', 'D'),
+            ('R10', 'Q5', '정진겸', 'C')
         ]
         sql = "INSERT INTO REPLIES (replies_no, question_no, respondent_no, answer) VALUES (%s, %s, %s, %s)"
         cursor.executemany(sql, replies)
